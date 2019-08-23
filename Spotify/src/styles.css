@@ -1,0 +1,90 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #0f0f0f;
+  
+}
+
+.img-thumb{
+  width: 50px;
+  height: 50px;
+}
+
+.text{
+color: #fff;
+}
+
+.margen{
+  margin-top: 85px;
+}
+
+
+.puntero{
+  cursor: pointer;
+}
+
+.img-circle{
+  border-radius: 100%;
+}
+
+
+@media (max-width: 600px) {
+  .carousel-item {
+    height: 280px;
+  }
+}
+
+
+/* Animaciones */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+
+.card {
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #151515;
+    color:#fff;
+} 
+
+.card:hover {
+    box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img{
+
+  border-radius: 10px 10px 0px 0px;
+   -moz-border-radius: 10px 10px 0px 0px;
+   -webkit-border-radius: 10px 10px 0px 0px;
+}
+
+.badgle{
+  background-color: #1ed760;
+  color:#181515;
+}

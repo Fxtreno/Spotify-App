@@ -1,0 +1,11 @@
+  <div class="card puntero" (click)="verArtista( item )"  *ngFor="let item of items">
+    <img [src]="item.images | noimage" class="card-img-top img" alt="..." >
+    <div class="card-body">
+      <p class="card-title">{{ item.name }}</p>
+      <p class="card-text">
+      	<span  *ngFor="let artista of item.artists" class="badge badge-pill badge-dark badgle">
+      		{{ artista.name }}
+      	</span>
+      </p>
+    </div>
+  </div>
