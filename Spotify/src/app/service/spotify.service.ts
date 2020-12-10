@@ -7,6 +7,8 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 
+//test
+
 export class SpotifyService {
 
   constructor( private http : HttpClient  ) {
